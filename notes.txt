@@ -1,0 +1,15 @@
+
+GITHUB AUTH APP
+
+Owned by: @Abrahamv19
+
+App ID: 356298
+
+Client ID: Iv1.79b6af09e23e9aca
+
+Public link: https://github.com/apps/authenticationecommerceps5
+
+Client secret: 9baee3100ac1711dcdea9fd3aee38a82a83c3be8
+
+http://localhost:8080/auth/github/callback
+

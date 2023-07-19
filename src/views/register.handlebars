@@ -1,0 +1,47 @@
+
+<section>
+<div class="login__general__container">
+
+<form method="POST" class="register-form">
+    <h1 class="register-title">REGISTER</h1>
+    <div class="register-input-group">
+        <div class="register-input-wrapper">
+            <label for="firstName">Name</label>
+            <input
+                class="register-input"
+                type="text" name="firstName" id="firstName" placeholder="Enter your name" required>
+        </div>
+        <div class="register-input-wrapper">
+            <label for="lastName">LastName</label>
+            <input
+                class="register-input"
+                type="text" name="lastName" id="lastName" placeholder="Enter your lastname" required>
+        </div>
+        <div class="register-input-wrapper">
+            <label for="age">Age</label>
+            <input
+                class="register-input"
+                type="text" name="age" id="age" placeholder="Enter your age" required>
+        </div>
+        <div class="register-input-wrapper">
+            <label for="email">Email</label>
+            <input
+                class="register-input"
+                type="email" name="email" id="email" placeholder="Enter your email" required>
+        </div>
+        <div class="register-input-wrapper">
+            <label for="password">Password</label>
+            <input
+                class="register-input"
+                type="password" name="password" id="password" placeholder="Enter your password" required>
+        </div>
+    </div>
+    <div class="register-submit">
+        <button type="submit" class="btn btn-primary">SIGN UP</button>
+    </div>
+</form>
+<br>
+<a href="?login=true">¿You have an account? Log in</a>
+</div>
+</section>
+<script src="/js/registerController.js"></script>

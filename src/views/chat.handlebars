@@ -1,0 +1,54 @@
+
+{{!-- <h1>Chat</h1>
+<div>
+  <div id="messages"></div>
+  <input
+    class="input is-warning is-medium"
+    type="text"
+    id="username"
+    style="margin-top: 15px"
+    placeholder="Username"
+  />
+  <input
+    class="input is-warning is-medium"
+    type="text"
+    id="message"
+    style="margin-top: 15px"
+    placeholder="Message"
+  />
+  <button id="send" class="button is-danger is-light" style="margin-top: 15px">
+    Send
+  </button>
+</div> --}}
+
+<h1 style="margin-top: 25px" class="title__productspage">PS5 WEB STORE MESSAGES CENTER</h1>
+<div class="row justify-content-center">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <div id="messages"></div>
+        <label style="margin-top: 50px" for="">Customer Name</label>
+        <input
+          class="input border border-primary form-control"
+          type="text"
+          id="username"
+          style="margin-top: 15px"
+          placeholder="Username"
+        />
+        <label style="margin-top: 50px" for="">Write your message</label>
+        <input
+          class="input border border-primary form-control"
+          type="text"
+          id="message"
+          style="margin-top: 15px"
+          placeholder="Message"
+        />
+        <button id="send" class="btn btn-info" style="margin-top: 15px">
+          SEND MESSAGE
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/chatcontroller.js"></script>
