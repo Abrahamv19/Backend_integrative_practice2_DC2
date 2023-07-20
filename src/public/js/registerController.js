@@ -20,7 +20,7 @@ form.onsubmit = (e) => {
       document.body.removeChild(loadingElement);
       form.reset();
       const successElement = document.createElement("div");
-      successElement.textContent = "Redirecting to Login Page...";
+      successElement.textContent = "Redirecting...";
       document.body.appendChild(successElement);
       setTimeout(() => {
         document.body.removeChild(successElement);
@@ -30,7 +30,7 @@ form.onsubmit = (e) => {
     .catch((error) => {
       document.body.removeChild(loadingElement);
       const errorElement = document.createElement("div");
-      errorElement.textContent = "Oops... Something went wrong!";
+      errorElement.textContent = "Something went wrong!";
       document.body.appendChild(errorElement);
       setTimeout(() => {
         document.body.removeChild(errorElement);
